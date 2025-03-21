@@ -13,16 +13,16 @@
 import time
 import webbrowser
 
-phone_number = "+919328935727"  # Replace with your friend's number
+phone_number = "+919328935727"  # 
 message = "HELLO"
 url = f"https://web.whatsapp.com/send?phone={+919328935727}&text={"hello"}"
 
 def send_hello():
-    webbrowser.open(url)  # Opens the chat without reloading WhatsApp Web
-    time.sleep(10)  # Wait for WhatsApp Web to load
+    webbrowser.open(url)  
+    time.sleep(10)  
     print("Message opened, please press Enter manually if needed.")
 
 while True:
     send_hello()
-    time.sleep(30)  # Send every 30 minutes
+    time.sleep(30)  
 
